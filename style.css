@@ -43,7 +43,7 @@ body{
 .fullscreen-video-wrap video{
     min-height: 100%;
     width: 100%;
-    max-width: 1200px;
+    max-width: 768px;
 }
 
 .sp-video-wrap{
@@ -58,7 +58,7 @@ body{
 .sp-video-wrap video{
     min-height: 100%;
     width: 100%;
-    max-width: 1200px;
+    max-width: 768px;
 }
 
 
