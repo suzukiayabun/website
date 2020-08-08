@@ -38,9 +38,27 @@ body{
 }
 
 .fullscreen-video-wrap video{
+    min-height: 100%;
     width: 100%;
-    min-height: 100vh;
     max-width: 1200px;
+}
+
+@media screen and (max-width: 768px){
+    .fullscreen-video-wrap video{
+        min-height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        display:none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sp-video-wrap video{
+        min-height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        display:none;
+    }
 }
 
 
@@ -96,7 +114,7 @@ nav{
         clip-path: circle(1800px at 90% -10%);
         -webkit-clip-path: circle(1800px at 90% -10%);  
         pointer-events: all; 
-        visibility: visible; 
+        z-index: 1;
     }
     .landing{
         flex-direction: column;
