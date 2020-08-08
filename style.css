@@ -94,7 +94,8 @@ nav{
     .nav-links.open{
         clip-path: circle(1800px at 90% -10%);
         -webkit-clip-path: circle(1800px at 90% -10%);  
-        pointer-events: all;      
+        pointer-events: all; 
+        z-index: 1;    
     }
     .landing{
         flex-direction: column;
