@@ -84,9 +84,6 @@ body{
 
 .title{
     color: rgb(235, 32, 32);
-    writing-mode: vertical-lr;
-    -ms-writing-mode: tb-lr;
-    -webkit-writing-mode: vertical-lr;
     font-size: 2rem;
     letter-spacing: 0.1em;
 }
@@ -121,9 +118,9 @@ body{
     .hamburger{
         position: absolute;
         cursor: help;
-        right: 6%;
+        left: 50%;
         top: 50%;
-        transform: translate(-6%, -50%);
+        transform: translate(-50%, -50%);
         z-index: 3;
     }
 
@@ -133,14 +130,14 @@ body{
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(0px at 90% 50%);
-        -webkit-clip-path: circle(0px at 90% 50%);
+        clip-path: circle(0px at 50% 50%);
+        -webkit-clip-path: circle(0px at 50% 50%);
         transition: all 1s ease-out;
         pointer-events: none;
     }
     .nav-links.open{
-        clip-path: circle(1200px at 90% 50%);
-        -webkit-clip-path: circle(1200px at 90% 50%);
+        clip-path: circle(1200px at 50% 50%);
+        -webkit-clip-path: circle(1200px at 50% 50%);
         pointer-events: all; 
         z-index: 1;
     }
