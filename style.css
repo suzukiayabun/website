@@ -46,6 +46,15 @@ body{
     max-width: 1200px;
 }
 
+.sp-video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .sp-video-wrap video{
     min-height: 100%;
     width: 100%;
