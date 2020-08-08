@@ -107,25 +107,25 @@ body{
         position: absolute;
         cursor: help;
         right: 6%;
-        top: 10%;
-        transform: translate(-6%, -10%);
+        top: 50%;
+        transform: translate(-6%, -50%);
         z-index: 2;
     }
 
     .nav-links{
         position: fixed;
-        background: rgb(0, 0, 0, 0.5);
+        background: rgba(255, 0, 0, 0.5);
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(100px at 90% -20%);
-        -webkit-clip-path: circle(100px at 90% -20%);
+        clip-path: circle(0px at 90% 50%);
+        -webkit-clip-path: circle(1200px at 90% 50%);
         transition: all 1s ease-out;
         pointer-events: none;
     }
     .nav-links.open{
-        clip-path: circle(1800px at 90% -10%);
-        -webkit-clip-path: circle(1800px at 90% -10%);  
+        clip-path: circle(1200px at 90% 50%);
+        -webkit-clip-path: circle(1200px at 90% 50%);
         pointer-events: all; 
         z-index: 1;
     }
@@ -137,7 +137,6 @@ body{
         font-size: 25px;
     }
 
-    
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
     }
