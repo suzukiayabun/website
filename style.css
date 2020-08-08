@@ -107,8 +107,8 @@ body{
         position: absolute;
         cursor: help;
         right: 6%;
-        top: 50%;
-        transform: translate(-6%, -50%);
+        top: 10%;
+        transform: translate(-6%, -10%);
         z-index: 2;
     }
 
