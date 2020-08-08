@@ -63,13 +63,13 @@ body{
 
 
 @media screen and (max-width: 768px){
-    .fullscreen-video-wrap video{
+    .fullscreen-video-wrap {
         display:none;
     }
 }
 
 @media screen and (min-width: 768px){
-    .sp-video-wrap video{
+    .sp-video-wrap {
         display:none;
     }
 }
@@ -78,8 +78,8 @@ body{
 .title{
     color: rgb(190, 22, 22);
     writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
 }
 
 nav{
