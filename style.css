@@ -82,10 +82,6 @@ body{
     -webkit-writing-mode: vertical-lr;
 }
 
-nav{
-    height: 10vh;
-}
-
 .nav-links{
     display: flex;
     list-style: none;
@@ -103,13 +99,14 @@ nav{
 }
 
     nav{
+        height: 10vh;
         position: relative;
     }
 
     .hamburger{
         position: absolute;
         cursor: help;
-        right: 2%;
+        right: 6%;
         top: 40%;
         transform: translate(-2%, -8%);
         z-index: 2;
