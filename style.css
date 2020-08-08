@@ -77,7 +77,7 @@ body{
 
 .title{
     color: rgb(190, 22, 22);
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     -webkit-writing-mode: vertical-lr;
 }
