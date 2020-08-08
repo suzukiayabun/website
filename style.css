@@ -107,7 +107,7 @@ body{
         position: absolute;
         cursor: help;
         right: 6%;
-        top: 40%;
+        top: 50%;
         transform: translate(-2%, -8%);
         z-index: 2;
     }
