@@ -8,3 +8,7 @@ hamburger.addEventListener("click", () => {
         link.classList.toggle("fade");
     })
 });
+
+$(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+});
