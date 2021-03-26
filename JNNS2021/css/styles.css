@@ -3965,7 +3965,7 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .navbar-brand {
   display: inline-block;
@@ -10020,7 +10020,7 @@ hr.light {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #2b2e31;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -10152,3 +10152,22 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+
+
+@media (max-width: 992px) {
+  .display-none {
+    display: none;
+  }
+  #mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
+    background-color: rgba(255, 255, 255, 0.50);
+    transition: background-color 0.2s ease;
+  }
+}
+
+.name-head{
+  padding-top: 12rem;
+  background: linear-gradient(to bottom, rgba(83, 76, 126, 0.0) 0%, rgba(64,49,166, 0.8) 0%), url("../assets/img/bg-masthead.jpg");
+}
+
